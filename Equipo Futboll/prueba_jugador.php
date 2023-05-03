@@ -12,7 +12,7 @@ class jugador {
     public function __construct($nombre = "", $edad = "", posicion $posicion , $goles_hechos ="", $faltas_recibidas = "", $faltas_realizadas = "" ){
      $this->nombre = $nombre;
      $this->edad = $edad;
-     $this->pocision = $posicion;
+     $this->posicion = $posicion;
      $this->goles_hechos = $goles_hechos;
      $this->faltas_recibidas = $faltas_recibidas;
      $this->faltas_realizadas = $faltas_realizadas;
